@@ -13,7 +13,7 @@ module.exports = class CovidCommand extends Command {
       category: "UTILITY",
       botPermissions: ["EMBED_LINKS"],
       command: {
-        enabled: true,
+        enabled: false,
         usage: "<country>",
         minArgsCount: 1,
       },

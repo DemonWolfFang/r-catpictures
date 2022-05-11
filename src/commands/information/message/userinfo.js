@@ -13,7 +13,7 @@ module.exports = class UserInfo extends Command {
       command: {
         enabled: true,
         usage: "[@member|id]",
-        aliases: ["uinfo", "memberinfo"],
+        aliases: ["uinfo", "memberinfo", "whois", "w"],
       },
       slashCommand: {
         enabled: false,

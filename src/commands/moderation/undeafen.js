@@ -12,7 +12,7 @@ module.exports = class UnDeafenCommand extends Command {
       userPermissions: ["DEAFEN_MEMBERS"],
       botPermissions: ["DEAFEN_MEMBERS"],
       command: {
-        enabled: true,
+        enabled: false,
         usage: "<ID|@member> [reason]",
         minArgsCount: 1,
       },

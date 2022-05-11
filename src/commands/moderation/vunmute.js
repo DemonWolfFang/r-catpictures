@@ -12,7 +12,7 @@ module.exports = class VUnMuteCommand extends Command {
       userPermissions: ["MUTE_MEMBERS"],
       botPermissions: ["MUTE_MEMBERS"],
       command: {
-        enabled: true,
+        enabled: false,
         usage: "<ID|@member> [reason]",
         minArgsCount: 1,
       },

@@ -36,7 +36,7 @@ module.exports = class NSFW extends Command {
     super(client, {
       name: "nsfw",
       description: "show some random nsfw",
-      enabled: true,
+      enabled: false,
       category: "ANIME",
       cooldown: 10,
       validations: [

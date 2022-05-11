@@ -13,7 +13,7 @@ module.exports = class GithubCommand extends Command {
       category: "UTILITY",
       botPermissions: ["EMBED_LINKS"],
       command: {
-        enabled: true,
+        enabled: false,
         aliases: ["git"],
         usage: "<username>",
         minArgsCount: 1,

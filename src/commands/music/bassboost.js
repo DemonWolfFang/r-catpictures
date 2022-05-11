@@ -17,7 +17,7 @@ module.exports = class Bassboost extends Command {
       category: "MUSIC",
       validations: musicValidations,
       command: {
-        enabled: true,
+        enabled: false,
         minArgsCount: 1,
         usage: "<none|low|medium|high>",
       },
